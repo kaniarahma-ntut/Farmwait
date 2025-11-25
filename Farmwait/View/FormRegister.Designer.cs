@@ -120,7 +120,7 @@
             cbDesaRegister.Name = "cbDesaRegister";
             cbDesaRegister.Size = new Size(125, 27);
             cbDesaRegister.TabIndex = 8;
-            cbDesaRegister.Text = "Kabupaten";
+            cbDesaRegister.Text = "Desa";
             // 
             // tbPassword
             // 
@@ -159,7 +159,7 @@
             btnRegister.UseVisualStyleBackColor = false;
             btnRegister.Click += btnRegister_Click;
             // 
-            // Register
+            // FormRegister
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -175,7 +175,7 @@
             Controls.Add(tbEmailRegister);
             Controls.Add(tbNamaRegister);
             Controls.Add(tbUsernameRegister);
-            Name = "Register";
+            Name = "FormRegister";
             Text = "Register";
             ResumeLayout(false);
             PerformLayout();
